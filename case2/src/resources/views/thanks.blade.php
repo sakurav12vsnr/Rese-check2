@@ -1,0 +1,14 @@
+@extends('layouts.app')
+
+@section('main')
+<link rel="stylesheet" href="css/app.css">
+
+<div class="thanks-container">
+    <h2 class="thanks-msg">
+        会員登録ありがとうございます
+    </h2>
+    <div class="thanks-btn">
+        <input type="submit" value="ログインする">
+    </div>
+</div>
+@endsection
